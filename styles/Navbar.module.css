@@ -1,0 +1,20 @@
+.brand {
+  font-size: 0;
+  cursor: pointer;
+}
+
+.wrap {
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  margin-bottom: 1rem;
+  padding: 1rem 0;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  column-gap: 1rem;
+  align-items: center;
+}

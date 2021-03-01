@@ -1,0 +1,59 @@
+.container {
+  background-color: #fff;
+  padding: 1rem;
+}
+
+.header {
+  color: var(--primary);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 2rem;
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 480px) {
+  .content {
+    grid-template-columns: 1fr 180px;
+    grid-auto-flow: dense;
+  }
+  .description {
+    grid-column: 1/2;
+  }
+  .metadata {
+    grid-column: 2/3;
+  }
+}
+
+.title {
+  margin: 0;
+}
+
+.description {
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+.metadata {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.metadataItem {
+  margin-bottom: 1rem;
+}
+
+.term {
+  font-weight: 900;
+  font-size: 1rem;
+  display: block;
+  margin: 0;
+}
+
+.definition {
+  color: var(--primary);
+  font-size: 1.25rem;
+}
