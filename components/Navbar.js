@@ -1,5 +1,4 @@
 import React from "react"
-import Image from "next/image"
 import navbarStyles from "../styles/Navbar.module.css"
 import layoutStyles from "../styles/Layout.module.css"
 import Link from "next/link"
@@ -68,7 +67,7 @@ const Navbar = ({ handleOnSelect, handleOnSearch, results }) => {
         <Link href="/">
           <h1 className={navbarStyles.brand}>
             Studio Ghibli Movies
-            <Image
+            <img
               src={"/logo.svg"}
               width={200}
               height={70}

@@ -49,3 +49,7 @@ Maybe I need to refactor the code to organize in an architecture based on Views 
 ## Proud part
 
 I'm proud about [components/navbar](https://github.com/yoshuadiaz/ghibli-movies/blob/main/components/Navbar.js) because I isolate the logic to rehuse in main view and in detail view
+
+## Production link
+
+You can see [the site here](https://zealous-montalcini-b92049.netlify.app)
