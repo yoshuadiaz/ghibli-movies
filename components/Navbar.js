@@ -81,6 +81,7 @@ const Navbar = ({ handleOnSelect, handleOnSearch, results }) => {
             onResultSelect={handleOnSelect}
             onSearchChange={handleOnSearch}
             results={results}
+            fluid
           />
         </section>
       </div>
