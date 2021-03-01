@@ -5,7 +5,7 @@ import layoutStyles from "../styles/Layout.module.css"
 import Link from "next/link"
 import { Search } from "semantic-ui-react"
 
-import escapeRegExp from "lodash/escaperegexp"
+import { escapeRegExp } from "lodash"
 import filter from "lodash/filter"
 
 export const initialState = {

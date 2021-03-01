@@ -1,5 +1,37 @@
 # Ghibli list of movies with Next.JS
 
+## Installation
+
+You need to run:
+
+```bash
+yarn
+// or
+npm install
+```
+
+## Dev mode
+
+You need to run:
+
+```bash
+yarn dev
+// or
+npm run dev
+```
+
+## Production
+
+You need to run:
+
+```bash
+yarn build
+yarn start
+// or
+npm run build
+npm start
+```
+
 ## Main trouble
 
 Create a fast website with a fast autocomplete.
@@ -16,4 +48,4 @@ Maybe I need to refactor the code to organize in an architecture based on Views 
 
 ## Proud part
 
-I'm proud about components/navbar because I isolate the logic to rehuse in main view and in detail view
+I'm proud about [components/navbar](https://github.com/yoshuadiaz/ghibli-movies/blob/main/components/Navbar.js) because I isolate the logic to rehuse in main view and in detail view
